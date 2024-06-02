@@ -204,8 +204,4 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:${Versions.AndroidX.Navigation.core}")
     implementation("androidx.navigation:navigation-ui-ktx:${Versions.AndroidX.Navigation.core}")
     androidTestImplementation("androidx.navigation:navigation-testing:${Versions.AndroidX.Navigation.core}")
-
-
-    testImplementation("org.robolectric:robolectric:4.9.1")
-    testImplementation("androidx.test.ext:junit:1.1.4")
 }
